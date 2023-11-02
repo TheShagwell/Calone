@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        900: '#020624'
+      },
       colors: {
         cyan: {
           30: '#C9D6F6'
@@ -19,14 +22,14 @@ const config: Config = {
         }, 
         blue: {
           50: '#020E27'
-        }, 
+        },
         screens: {
           xs: "480px",
           ss: "620px",
           sm: "768px",
           md: "1060px",
-          lg: "1200px",
-          xl: "1700px",
+          lg: "1200px",   
+          xl: "1512px",
         },
         backgroundImage: {
           'bg-men-discussing': "url('/men-discussing.jpg')",
