@@ -13,7 +13,7 @@ const config: Config = {
         900: '#020624'
       },
       colors: {
-        cyan: {
+        fadeCyan: {
           30: '#C9D6F6'
         },
         gray: {
@@ -22,6 +22,9 @@ const config: Config = {
         }, 
         blue: {
           50: '#020E27'
+        },
+        btnWhite: {
+          white: '#DFE7F9'
         },
         screens: {
           xs: "480px",
@@ -32,7 +35,7 @@ const config: Config = {
           xl: "1512px",
         },
         backgroundImage: {
-          'bg-men-discussing': "url('/men-discussing.jpg')",
+          'bgMen-discussing': "url('../_menDiscussing.jpg')",
           'bg-man-on-headphone-I': "url('/man-on-headphone-I.jpg')",
           'bg-man-on-headphone': "url('/man-on-headphone.jpg')",
           'bg-Woman-on-headphone': "url('/Woman-on-headphone.jpg')",
