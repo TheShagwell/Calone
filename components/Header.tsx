@@ -16,7 +16,6 @@ const Header = () => {
         priority
       />
       <Hero/>
-
     </div>
   )
 }
