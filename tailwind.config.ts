@@ -12,11 +12,15 @@ const config: Config = {
       backgroundColor: {
         900: '#020624'
       },
+      fontFamily: {
+        clashDisplay: ["Clash Display", "cursive"],
+        ZenDots: ["Zen Dots", "sans-serif"],
+      },
       colors: {
         fadeCyan: {
           30: '#C9D6F6'
         },
-        gray: {
+        offWhite: {
           10: '#E9F0FC',
           30: '#DFE7F9'
         }, 

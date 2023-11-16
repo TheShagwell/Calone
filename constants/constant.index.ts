@@ -16,7 +16,8 @@ import {
     _iconArrowNarrowUpRight,
     _iconFacebook,
     _iconTwitter,
-    _iconInstagram
+    _iconInstagram,
+    _bgMovementMotion1
 } from "../assets"
 
 // ***** Navigation

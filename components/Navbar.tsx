@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className='flexBetween max-container padding-container relative z-50 py-8'>
       <Link href="">
-        <h4 className=''>Calone</h4>
+        <h4 className='font-ZenDots bold-24 text-offWhite-10'>Calone</h4>
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {NavItems.map((link, index) => (

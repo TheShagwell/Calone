@@ -1,3 +1,5 @@
+// Background Hero Images
+import _bgMovementMotion1 from '../public/_bgMovementMotion1.jpg'
 
 // Images to be used
 import _image1 from './_image1.png';
@@ -24,7 +26,7 @@ import _iconArrowNarrowUpRight from './_iconArrowNarrowUpRight.svg';
 import _iconFacebook from './_iconFacebook.svg';
 import _iconInstagram from './_iconInstagram.svg';
 import _iconTwitter from './_iconTwitter.svg';
-import _plus from './_plus.svg';
+import _plus from '../public/_plus.svg';
 
 export {
     _avatar_i,
@@ -45,5 +47,6 @@ export {
     _iconFacebook,
     _iconTwitter,
     _iconInstagram,
-    _plus
+    _plus,
+    _bgMovementMotion1
 };

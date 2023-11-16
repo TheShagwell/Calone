@@ -1,9 +1,15 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Zen+Dots&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("../public/font/ClashDisplay-Variable.ttf");
+}
 
 * {
   margin: 0;
@@ -11,8 +17,13 @@
   box-sizing: border-box;
 }
 
+:root{
+  --bg-body: #020624;
+}
+
 body {
   font-family: Montserrat;
+  background: #020624;
 }
 
 @layer utilities {
@@ -69,9 +80,21 @@ body {
     @apply text-[40px] font-[700] leading-[115%];
   }
 
+  .bold-24 {
+    @apply text-[20px] font-[400] leading-[115%];
+  }
+
   /* Hero */
   .hero-map {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+  }
+
+  .microphone{
+    @apply rounded-full border-[1px] border-solid border-offWhite-30 flex justify-center items-center w-[88px] h-[88px] relative bg-opacity-10 bg-offWhite-30
+  }
+
+  .arrow-up{
+    @apply rounded-full flex justify-center items-center w-[32px] h-[32px] absolute -right-4 top-6 bg-offWhite-10
   }
 
   /* Camp */

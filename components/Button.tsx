@@ -15,8 +15,8 @@ const Button = ({ type, title, variant, icon, full, isReversed} : ButtonProps) =
         className={`flexCenter gap-3 rounded-full ${isReversed ? 'reversed' : 'row'} border ${variant} ${full && 'w-full'}`} 
         type={type}
     >
-        {icon && <Image src={icon} alt={title} width={20} height={20} />}
         <span className="cursor-pointer regular-16">{title}</span>
+        {icon && <Image src={icon} alt={title} width={20} height={20} />}
     </button>
   )
 }

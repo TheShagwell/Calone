@@ -1,14 +1,14 @@
 import Navbar from "./Navbar"
 import Hero from "./Hero"
 import Image from "next/image"
-import _manOnHeadphone_I from '../public/_manOnHeadphone_I.jpg';
+import _bgMovementMotion1 from '../public/_bgMovementMotion1.jpg';
 
 const Header = () => {
   return (
     <div className='h-screen relative w-full'>
       <Navbar/>
       <Image
-        src={_manOnHeadphone_I}
+        src={_bgMovementMotion1}
         alt="hello"
         fill
         className="object-cover"
