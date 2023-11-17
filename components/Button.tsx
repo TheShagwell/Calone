@@ -12,7 +12,7 @@ type ButtonProps = {
 const Button = ({ type, title, variant, icon, full, isReversed} : ButtonProps) => {
   return (
     <button 
-        className={`flexCenter gap-3 rounded-full ${isReversed ? 'reversed' : 'row'} border ${variant} ${full && 'w-full'}`} 
+        className={`flexCenter gap-3 rounded-full ${isReversed ? 'hover:bg-offWhite-30' : ''} border ${variant} ${full && 'w-full'}`} 
         type={type}
     >
         <span className="cursor-pointer regular-16">{title}</span>

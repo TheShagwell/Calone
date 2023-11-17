@@ -28,11 +28,18 @@ export const NavItems = [
     { href: '/', key: 'contact us', span: 'Contact us'},
 ];
 
+ export const Peoples = [
+    '/public/_manOnHeadphone.jpg',
+    '/assets/_avatar_ii.png',
+    '/assets/_avatar_iii.png',
+    '/assets/_avatar_iv.png',
+  ];
+
 export const Podcast = [
     {
         id: "podcast-1",
         title: 'Seamless Podcast Hosting',
-        content: 'Enjoy seamless podcast hosting that makes it easy to upload and manage your audio files. Our platform is integrated with leading podcast hosting providers, ensuring that your podcasts are available to listeners everywhere.',
+        content: 'Enjoy seamless podcast hosting that makes it easy to upl]oad and manage your audio files. Our platform is integrated with leading podcast hosting providers, ensuring that your podcasts are available to listeners everywhere.',
         image: _image1
     }
 ]
