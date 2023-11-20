@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='max-container padding-container py-8 px-[96px] border-2 border-cyan-300 border-solid'>
+    <div className='max-container padding-container py-8 px-[96px]'>
         <div className="flexBetween w-full">
           <span className='text-offWhite-30'>2023 &copy; Calone</span>
           <div className="flex gap-4">

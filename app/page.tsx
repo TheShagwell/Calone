@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <Header/>
       <Podcast/>
-      <Story/>
       <Podcasts/>
+      <Story/>
     </>
   )
 }
