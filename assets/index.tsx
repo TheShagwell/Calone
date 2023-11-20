@@ -16,17 +16,17 @@ import _avatar_iii from './public/_avatar_iii.png';
 import _avatar_iv from './public/_avatar_iv.png';
 
 // Podcasts image to be used
-import _manOnHeadphone_I from './public/_manOnHeadphone_I.jpg';
-import _manOnHeadphone from './public/_manOnHeadphone.jpg';
+import _manOnHeadphone_I from '../assets/_manOnHeadphone_I.jpg';
+import _manOnHeadphoneSM from '../_manOnHeadphoneSM.jpg';
 import _menDiscussing from './public/_menDiscussing.jpg';
-import _womanOnHeadphone from './public/_womanOnHeadphone.jpg';
+import _womanOnHeadphoneSM from '../assets/_womanOnHeadphoneSM.jpg';
 
 // Icons used
 import _iconArrowNarrowUpRight from './_iconArrowNarrowUpRight.svg';
-import _iconFacebook from '../public/_iconFacebook.svg';
-import _iconInstagram from '../public/_iconInstagram.svg';
+import _iconFacebook from './public/_iconFacebook.svg';
+import _iconInstagram from './public/_iconInstagram.svg';
 import _iconTwitter from '../public/_iconTwitter.svg';
-import _plus from '../public/_plus.svg';
+import _plus from './public/_plus.svg';
 
 export {
     _avatar_i,
@@ -40,8 +40,8 @@ export {
     _image5,
     _image6,
     _manOnHeadphone_I,
-    _manOnHeadphone,
-    _womanOnHeadphone,
+    _manOnHeadphoneSM,
+    _womanOnHeadphoneSM,
     _menDiscussing,
     _iconArrowNarrowUpRight,
     _iconFacebook,
