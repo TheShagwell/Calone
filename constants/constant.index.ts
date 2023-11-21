@@ -59,7 +59,7 @@ export const Podcast = [
     {
         id: "podcast-1",
         title: 'Seamless Podcast Hosting',
-        content: 'Enjoy seamless podcast hosting that makes it easy to upl]oad and manage your audio files. Our platform is integrated with leading podcast hosting providers, ensuring that your podcasts are available to listeners everywhere.',
+        content: 'Enjoy seamless podcast hosting that makes it easy to upload and manage your audio files. Our platform is integrated with leading podcast hosting providers, ensuring that your podcasts are available to listeners everywhere.',
         // image: _manOnHeadphone_I,
     },
     {
