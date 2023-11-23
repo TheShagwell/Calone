@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
 
           </div>
-          <a href="" className='text-offWhite-30 hover:underline'>Join for free</a>
+          <a href="" className='text-offWhite-10 hover:underline'>Join for free</a>
         </div>
       </div>
       <p className='text-offWhite-30 mt-10 w-[494px]'>Distribute your podcast to the most popular listening apps, including Spotify with just simple steps.</p>
