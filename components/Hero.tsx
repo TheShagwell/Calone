@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
       <p className='text-offWhite-30 mt-10 w-[494px]'>Distribute your podcast to the most popular listening apps, including Spotify with just simple steps.</p>
       <div className="lg:flex gap-4 mt-[48px] hidden">
-        <Button type="button" title="Get started" icon="/_plus.svg" variant="btn_white"/>
+        <Button type="button" title="Get started now" icon="/_plus.svg" variant="btn_white"/>
         <Button type="button" title="Switch to calone" variant="btn_white_outline"/>
       </div>
     </div>
