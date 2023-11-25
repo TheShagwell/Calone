@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 import _microphone from '../public/_microphone.png' 
@@ -27,7 +28,7 @@ const Hero = () => {
           </div>
 
           </div>
-          <a href="" className='text-offWhite-10 hover:underline'>Join for free</a>
+          <Link href="" className='text-offWhite-10 hover:underline'>Join for free</Link>
         </div>
       </div>
       <p className='text-offWhite-30 mt-10 w-[494px]'>Distribute your podcast to the most popular listening apps, including Spotify with just simple steps.</p>
