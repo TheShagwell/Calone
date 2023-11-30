@@ -11,7 +11,7 @@ type PodcastDetailCard = {
 const Podcasting = ({title, content,  podcastImage} : PodcastDetailCard) => {
     return (
         <div className="flex justify-between relative">
-            <div className="max-w-[700px] !max-h-[400px]">
+            <div className="max-w-[700px] max-h-[400px]">
                 <Image src={podcastImage} alt={title} width={705} height={420} className='bg-cover bg-center rounded-2xl'/>
             </div>
             <div className="w-full absolute -right-[90px] top-0">
