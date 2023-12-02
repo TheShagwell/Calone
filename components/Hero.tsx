@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='max-container padding-container relative py-8'>
       <div className="relative">
-        <h1 className='bold-96 text-offWhite-10 font-clashDisplay'>Create and <br />monetize your podcast</h1>
+        <h1 className='bold-96 text-offWhite-30 font-clashDisplay'>Create and <br />monetize your podcast</h1>
         <div className="flex items-center absolute top-0 right-[430px] gap-8">
           <div className="microphone">
             <Image
