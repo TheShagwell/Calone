@@ -11,12 +11,12 @@ type PodcastDetailCard = {
 const Podcasting = ({title, content,  podcastImage} : PodcastDetailCard) => {
     return (
         <div className="flex justify-between relative">
-            <div className="max-w-[700px] max-h-[400px]">
+            <div className="max-w-[700px] !max-h-[400px]">
                 <Image src={podcastImage} alt={title} width={705} height={420} className='bg-cover bg-center rounded-2xl'/>
             </div>
             <div className="w-full absolute -right-[90px] top-0">
                 <h4 className='bold-72 font-clashDisplay text-offWhite-10'>{title}</h4>
-                <p className='max-w-[460px] regular-16 text-offWhite-10'>{content}</p>
+                <p className='max-w-[460px] regular-16 text-offWhite-30'>{content}</p>
             </div>
         </div>
     )
