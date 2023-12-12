@@ -37,17 +37,6 @@ const config: Config = {
           'md': "1060px",
           'lg': "1200px",   
           'xl': "1512px",
-        },
-        backgroundImage: {
-          'bgMen-discussing': "url('../_menDiscussing.jpg')",
-          'bg-man-on-headphone-I': "url('/man-on-headphone-I.jpg')",
-          'bg-man-on-headphone': "url('/man-on-headphone.jpg')",
-          'bg-Woman-on-headphone': "url('/Woman-on-headphone.jpg')",
-          'bg-_microphone': "url('/_microphone.jpg')",
-          '_icon-arrow-narrow-up-right': "url('/_icon-arrow-narrow-up-right.svg')",
-          '_icon-Facebook': "url('/_icon-Facebook.svg')",
-          '_icon-Instagram': "url('/_icon-Instagram.svg')",
-          '_icon-Twitter': "url('/_icon-Twitter.svg')",
         }
       }
     },
