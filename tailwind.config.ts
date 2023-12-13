@@ -31,8 +31,8 @@ const config: Config = {
           white: '#DFE7F9'
         },
         screens: {
-          'xs': "480px",
-          'ss': "620px",
+          'xs': "360px",
+          'ss': "480px",
           'sm': "768px",
           'md': "1060px",
           'lg': "1200px",   
