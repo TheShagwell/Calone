@@ -22,7 +22,8 @@ const config: Config = {
         },
         offWhite: {
           10: '#E9F0FC',
-          30: '#DFE7F9'
+          30: '#DFE7F9',
+          50: '#DFE740',
         }, 
         blue: {
           50: '#020E27'
