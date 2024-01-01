@@ -84,11 +84,6 @@ body {
     @apply text-[20px] font-[400] leading-[115%];
   }
 
-  /* Hero */
-  .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
-  }
-
   .microphone{
     @apply rounded-full border-[1px] border-solid border-offWhite-30 flex justify-center items-center w-[88px] h-[88px] relative bg-opacity-10 bg-offWhite-30
   }
