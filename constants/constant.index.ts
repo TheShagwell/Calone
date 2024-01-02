@@ -71,7 +71,13 @@ export const Podcast = [
     {
         id: "podcast-3",
         title: 'Detailed Analytics',
-        content: 'we provide podcasters with detailed analytics and insights to help them understand their audience, measure their podcast\'s performance, and make data-driven decisions to grow their podcast. Our platform offers a range of metrics, and more.',
+        content: 'We provide podcasters with detailed analytics and insights to help them understand their audience, measure their podcast\'s performance, and make data-driven decisions to grow their podcast. Our platform offers a range of metrics, and more.',
+        podcastImage: '/_womanOnHeadphone.jpg',
+    },
+    {
+        id: "podcast-4",
+        title: 'Unlimited Podcasts',
+        content: 'We provide podcasters with detailed analytics and insights to help them understand their audience, measure their podcast\'s performance, and make data-driven decisions to grow their podcast. Our platform offers a range of metrics, and more.',
         podcastImage: '/_womanOnHeadphone.jpg',
     }
 ]
