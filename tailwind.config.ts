@@ -29,7 +29,8 @@ const config: Config = {
           50: '#020E27'
         },
         btnWhite: {
-          white: '#DFE7F9'
+          white: '#DFE7F9',
+          'clean-white': '#DFE7F9'
         },
         screens: {
           'xs': "360px",
