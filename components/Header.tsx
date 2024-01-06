@@ -9,7 +9,7 @@ const Header = () => {
       <Navbar/>
       <Image
         src={_bgMovementMotion1}
-        alt="hello"
+        alt="motion photo"
         fill
         className="object-cover"
         sizes="100vw"
