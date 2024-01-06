@@ -30,7 +30,7 @@ const config: Config = {
         },
         btnWhite: {
           white: '#DFE7F9',
-          'clean-white': '#DFE7F9'
+          'clean-white': '#fff'
         },
         screens: {
           'xs': "360px",
