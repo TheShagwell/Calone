@@ -28,6 +28,9 @@ const config: Config = {
         blue: {
           50: '#020E27'
         },
+        space: {
+          'space': '40px',
+        },
         btnWhite: {
           white: '#DFE7F9',
           'clean-white': '#fff'
