@@ -92,10 +92,6 @@ body {
     @apply rounded-full flex justify-center items-center w-[32px] h-[32px] absolute -right-4 top-6 bg-offWhite-10
   }
 
-  /* Camp */
-  .camp-quote {
-    @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
-  }
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
